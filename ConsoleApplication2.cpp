@@ -70,31 +70,3 @@ int main()
 		break;
 	}
 }
-
-mov al, y
-cbw
-sub x, 4
-// mov x, bx
-// sub bx, 4
-imul bx // imul x
-// double word dx:ax
-mov bx, ax
-mov cx, dx
-mov al, 3
-imul z // v ax
-cwd// dx:ax double word
-
-sub ax, bx
-sub dx, cx // dx:ax
-
-mov bx, ax // dx:bx
-
-mov al, 2
-imul y // ax word
-add ax, 3
-
-// dx:bx / ax
-
-xchg ax, bx // dx:ax / bx ax - chas
-sub ax, 2
-mov v, ax
